@@ -7,12 +7,12 @@ const Topsectionbtn = () => {
 
         <div className="top-link-container">
 
-            <div className="container-link">
-            <a className="link" href="#about" data-scroll>About Me</a>
+            <div className="container-link ico-h">
+            <a className="link " href="#about" data-scroll>About Me</a>
             </div>
 
 
-            <div className="container-link">
+            <div className="container-link ico-h">
              <a className="link" href="#projects" data scroll>Projects</a>
             </div>
                

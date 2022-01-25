@@ -7,11 +7,10 @@ const Skillsection = () => {
     return (
         <div className="skillsection-container">
 
-            <div className="skill-subtitle">
+        <div className="skills-frame-container">
+            {/* <div className="skill-subtitle">
                 <h2>-My Hard Skills-</h2>
-            </div>
-
-            <div className="front-skills">
+            </div> */}
 
                 <div className="title-skills">
                 </div>
@@ -37,30 +36,49 @@ const Skillsection = () => {
                     <i className="devicon-heroku-original icon"></i>
                 </div>
 
+
+        </div>
+
+            
+
+            <div className="front-skills">
+
+               
             </div>
 
-            <div className="skill-subtitle">
+            
+
+            {/* <div className="skill-subtitle">
                 <h2>-My Soft Skills-</h2>
-            </div>
+            </div> */}
+            <div className="soft-skills-frame-container">
+                <div className="soft-container">
 
-            <div className="soft-container">
-           
-            <div className="icon-soft-skills">
-                    <FontAwesomeIcon icon={faSmile}/>
-            </div>
-                <div className="icon-soft-skills">
-                    <FontAwesomeIcon icon={faBasketballBall}/>
-            </div>
-                <div className="icon-soft-skills">
-                    <FontAwesomeIcon icon={faComment}/>
-            </div>
-                <div className="icon-soft-skills">
-                    <FontAwesomeIcon icon={faBrain} />
-            </div>
-                <div className="icon-soft-skills">
-                    <FontAwesomeIcon icon={faGhost} />
+                    <div className="icon-soft-skills">
+
+                        <FontAwesomeIcon icon={faSmile} />
+
+
+                    </div>
+
+
+
+
+                    <div className="icon-soft-skills">
+                        <FontAwesomeIcon icon={faBasketballBall} />
+                    </div>
+                    <div className="icon-soft-skills">
+                        <FontAwesomeIcon icon={faComment} />
+                    </div>
+                    <div className="icon-soft-skills">
+                        <FontAwesomeIcon icon={faBrain} />
+                    </div>
+                    <div className="icon-soft-skills">
+                        <FontAwesomeIcon icon={faGhost} />
+                    </div>
                 </div>
             </div>
+            
                 
                
 
