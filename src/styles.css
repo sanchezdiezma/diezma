@@ -176,58 +176,45 @@ mark {
   font-weight: bold;
 }
   
-/* Skills Section */
+/* Skills Section --------------------------------------- */
 
 .skillsection-container {
   background-color: var(--honeydew);
   width: 100%;
   height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   
 }
 
-
-/*Aqui me he quedado todo */
-  
 .skills-frame-container {
   background-color: var(--powder-blue);
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  width: 100%;
-  height: 20%;
-  margin-top: 40px;
-  
-  
+  width: 30%;
+  height: 80%;
+  margin-top: 30px;
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-  
-  
 
-  
-  
-  
 .skill-subtitle {
   color: var(--prussian-blue);
   font-family: 'Rubik', sans-serif;
   font-size: var(--lg);
   text-align: center;
-  padding: 50px;
+  padding: 30px;
+ 
 }
-  
 
-.front-skills {
-  
-}
-   
 .title-skills {
   font-family: 'Rubik', sans-serif;
   color: var(--prussian-blue);
   font-size: var(--lg);
 }
-    
+  
 .icon-skills{
   display: flex;
   align-items: center;
@@ -240,14 +227,12 @@ mark {
   border-radius: 15px;
   padding: 10px;
   margin: 30px;
-
 }
   
 .icon {
   padding: 8px;
-  
 }
-
+  
 .soft-skills-frame-container {
   background-color: red;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -257,16 +242,14 @@ mark {
   margin-right: 30px;
   border-radius: 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .soft-container {
   display: flex;
   justify-content: center;
 }
-  
-  
-  
+
 .icon-soft-skills {
   font-size: 3em;
   width: 85px;
@@ -275,94 +258,20 @@ mark {
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 10px;
   display: flex;
-  
-  
   justify-content: center;
   align-items: center;
   padding: 10px;
   margin: 10px;
 }
   
-
-
   
-
-
- 
-
-
-
-
-
-  
-
-
-  
-
-  
-  
-
-
-
-
-
-
- 
-
-
- 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  
-  
-
-
-
-
-
-
-
-  
-
-  
-
-
-
-
-
-  
-
-
-  
-
-/* Project Section */
+/* Project Section --------------------------------------- */
   
 .projectsection-container {
   
   background-color: var(--powder-blue);
   width: 100%;
-  height: 250vh;
+  height: 210vh;
 }
 
 .wrap-container {
@@ -424,10 +333,10 @@ mark {
     margin: 10px;
     border-radius: 10px;
     padding: 10px;
-    line-height: 5;
+    line-height: 7;
   }
 
-  /* Footer Section */
+  /* Footer Section --------------------------------------- */
 
   .footer-container {
     background-color: var(--prussian-blue);
@@ -443,6 +352,97 @@ mark {
     color: #fff;
     height: 10px;
   }
+
+  
+  
+  
+  
+
+   
+    
+  
+
+  
+
+
+  
+  
+  
+  
+  
+
+
+  
+
+
+ 
+
+
+
+
+
+  
+
+
+  
+
+  
+  
+
+
+
+
+
+
+ 
+
+
+ 
+
+  
+
+
+
+
+  
+
+  
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
 
 
     

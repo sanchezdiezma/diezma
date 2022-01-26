@@ -15,7 +15,7 @@ const Midesection = () => {
                 </div>
 
                 <div className="mid-subtitle">
-                    <h3> Ad astra per Aspera </h3>
+                    <h3> From print to screen </h3>
                 </div>
 
                 <div className="text-container">
